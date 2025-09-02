@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>ROBERTO-TELEFLIX</title>
+  <title>PINK GHOST</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>ROBERTO-TELEFLIX</h1>
+    <h1>PINK GHOST</h1>
   </header>
 
   <!-- LAYOUT: MENU LATERAL (ESQ) + VÍDEO (DIR) -->
@@ -18,10 +18,10 @@
       <section style="padding:12px 0;">
         <label for="tema" style="color:#BDC3C7; margin-right:8px;">ESCOLHA O TEMA:</label>
         <select id="tema">
-          <option value="LOUVOR">LOUVOR</option>
-          <option value="MENSAGENS">MENSAGENS</option>
-          <option value="INFANTIL">INFANTIL</option>
-          <option value="AULAS">AULAS</option>
+          <option value="ENSAIOS">ENSAIOS</option>
+          <option value="HINOS">HINOS</option>
+          <option value="HINOS-RJM">HINOS-RJM</option>
+          <option value="COROS">COROS</option>
         </select>
       </section>
 
@@ -71,48 +71,48 @@
   <script>
     // Mapa de temas → lista de vídeos
     const TEMAS = {
-      LOUVOR: [
-        { titulo: "EU SOU TEU PAI", 
-         autor: "VALESCA MAYSSA", 
-         url: "https://www.youtube.com/watch?v=kNJPalON82E" 
+      ENSAIOS: [
+        { titulo: "ESCALA HARMÔNICA", 
+         autor: "LOUVORES A DEUS", 
+         url: "https://youtu.be/VQaZn_4bCVM?si=sH4DgzL0LmSRcrTt" 
         },
-        { titulo: "DEUS DE PROMESSAS", 
-         autor: "MINISTÉRIO APASCENTAR", 
-         url: "https://youtu.be/93XkdakMp00?si=-S0mta76Kc_GxWhd" 
+        { titulo: "ESCALA DÓ MAIOR", 
+         autor: "SAULO TUBISTA CCB CABREÚVA", 
+         url: "https://youtu.be/6jHPZ5kJ85M?si=qS3YyoyyV4iDnH_p" 
         },
-        { titulo: "NINGUÉM EXPLICA DEUS", 
-         autor: "PRETO NO BRANCO", 
-         url: "https://youtu.be/LYsaKn8FRhc?si=R7yN3htfuafehfSw" 
-        },
-      ],
-      MENSAGENS: [
-        { titulo: "O TEMPO É CURTO; FAÇA O MELHOR USO DO SEU TEMPO", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/fmsAqGy2pCM?si=u8aCy5Lwjoj80xAB" 
-        },
-        { titulo: "QUEM É JESUS CRISTO?", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/6ATJ6avomUg?si=4_qlxZGejDlxVyz5" 
+        { titulo: "ENSAIO REGIONAL CCB PORTÃO", 
+         autor: "AISLAN CCB", 
+         url: "https://youtu.be/KYBu3GelCEQ?si=MW3trCmXPJKy9tpb" 
         },
       ],
-      INFANTIL: [
-        { titulo: "SOY UNA TAZA", 
-         autor: "CANTA JUEGO", 
-         url: "https://youtu.be/cgEnBkmcpuQ?si=paA3pkAIp3lgAmjQ" 
+      HINOS: [
+        { titulo: "HINO 322", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/96inYQx8QAE?si=jDDWu9xBemXkOgLx" 
         },
-        { titulo: "PEDRO, THIAGO, JOÃO NO BARQUINHO", 
-         autor: "3 PALAVRINHAS", 
-         url: "https://youtu.be/Tdwy3BZe61s?si=As38T49IC695wKE0" 
+        { titulo: "HINO 61", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/xyapaIVjSCA?si=ZASDrf4HZTCG-ZfH" 
         },
       ],
-      AULAS: [
-        { titulo: "INTRODUÇÃO A JAVASCRIPT", 
-         autor: "TIGER CODES", 
-         url: "https://youtu.be/WRlfwBof66s?si=0o80ULtCNqjj-lU2" 
+      HINOS-RJM: [
+        { titulo: "HINO 440", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/TEJTuqjbMvw?si=A6E8Yy-gj6SiT0Nr" 
         },
-        { titulo: "HTML E CSS BÁSICO EM 5 MINUTOS", 
-         autor: "TIGER CODES", 
-         url: "https://www.youtube.com/watch?v=5Hn58p-hYC0" 
+        { titulo: "HINO 454", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/HiY0_f4CWgE?si=byizyxrlXcUusb3O" 
+        },
+      ],
+      COROS: [
+        { titulo: "CORO 6", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/wwQBtO54jCs?si=2ii9oRRfy_zn2KFu" 
+        },
+        { titulo: "CORO 1", 
+         autor: "SEVERINO JOAQUIM DA SILVA", 
+         url: "https://youtu.be/CWGivzYHib0?si=Jy275XiMJd1smgqK" 
         },
       ],
     };
