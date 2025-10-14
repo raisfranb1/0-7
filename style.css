@@ -150,3 +150,37 @@ html, body {
   }
 }
 
+/* Botão "Sobre" */
+.btn-sobre {
+  display: inline-block;
+  background-color: #001a33; /* azul bem escuro */
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: left; /* esquerda */
+}
+
+.btn-sobre:hover {
+  background-color: #003366; /* tom mais claro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.btn-sobre:active {
+  background-color: #000f1f; /* tom ainda mais escuro ao clicar */
+  transform: scale(0.98);
+}
+.sobre {
+  position: fixed;     /* Fixa a div na tela */
+  top: 0;              /* Começa do topo */
+  left: 0;             /* Encostada na lateral esquerda */
+  width: 250px;        /* Largura da barra lateral */
+  height: 100vh;       /* Ocupa toda a altura da janela */
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;    /* Adiciona rolagem se o conteúdo for maior que a tela */
+}
